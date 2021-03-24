@@ -8,6 +8,9 @@ export const Container = styled.div`
 
     div{
         background: var(--shape);
+        -webkit-box-shadow: 0px 2px 15px 3px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 2px 15px 3px rgba(0,0,0,0.15);
+        box-shadow: 0px 2px 15px 3px rgba(0,0,0,0.15); 
         color: var(--text-title);
         padding: 1.5rem 2.5rem;
         border-radius: 0.25rem;
